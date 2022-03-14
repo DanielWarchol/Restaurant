@@ -1,0 +1,88 @@
+@media (max-width: 1199px) {
+    h1 {
+        font-size: 65px;
+    }
+}
+
+@media (max-width: 991px) {
+    /* Navbar */
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .header-wrapper .navbar-brand img {
+        max-width: 60px;
+        margin-left: 20px;
+    }
+
+    .header-scrolled {
+        height: auto;
+    }
+
+    .header-wrapper .navbar-collapse {
+        margin-top: -2px;
+    }
+
+    .header-wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-white);
+        padding-bottom: 15px;
+    }
+
+    .header-wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+
+    /* Banner */
+    .banner-wrapper {
+        padding-top: 70px;
+    }
+
+    .banner-wrapper .top-menu .card {
+        height: 200px;
+    }
+
+    /* About */
+    .about-wrapper {
+        padding-bottom: unset;
+    }
+
+    .about-wrapper .card {
+        z-index: 10;
+        right: unset;
+        top: unset;
+    }
+
+    /* Offers */
+    .offers-wrapper .card .offer-text {
+        width: 65%;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /* Menu */
+    .menu-wrapper .row {
+        padding-top: 70px;
+    }
+
+   /* Review */
+   .review-wrapper .carousel-caption
+   .review-wrapper .carousel-item {
+       min-height: 460px;
+   }
+}
